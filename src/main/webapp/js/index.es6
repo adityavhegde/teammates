@@ -65,4 +65,24 @@ $('document').ready(() => {
     $('#submissionsNumber').html(submissionCounter(currentDate, baseDate, submissionPerHour, baseCount));
 
     window.setInterval(loopTestimonials, LOOP_INTERVAL);
+        
+    $('.vid-wrapper').hide();
+    
+    $('.vid-wrapper iframe').hide();
+    
+    $('#tinker2').click(() => {
+    	$('#tinker1').hide();
+        $('.vid-wrapper').show();     
+        $('.vid-wrapper iframe').show();
+    });
+    
+    $(document).keyup((e) => {
+        if (e.keyCode == 27) {
+            $('#tinker1').show();
+            $('.vid-wrapper').hide();     
+            $('.vid-wrapper iframe').hide();
+            return;
+        }   
+    });
+	
 });
