@@ -11,15 +11,18 @@
         <h1 class="h2 color_orange text-center">
             Student peer evaluations/feedback, shareable instructor comments, and more...
         </h1>
-        <div class="row">
+        <div class="row" id="tinker1">
             <img class="center-block img-responsive" alt="Overview of TEAMMATES - anonymous peer feedback and confidential peer evaluations" src="images/overview.png">
+        </div>
+        <div class="row vid-wrapper">
+            <iframe src="https://www.youtube.com/embed/mDtfmNmRwBM" allowfullscreen></iframe>
         </div>
         <h2 class="color_orange row h4 text-center color_blue">
             <span id= "submissionsNumber" class="color_orange">5,000,000+</span> feedback entries submitted so far ...
         </h2>
         <div class="row">
             <div class="margin-bottom-10px col-xs-10 col-sm-5 col-xs-offset-1 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3">
-                <a class="btn btn-default btn-block" href="https://www.youtube.com/embed/mDtfmNmRwBM?autoplay=1&rel=0" target="_blank">
+                <a class="btn btn-default btn-block" id="tinker2" href="https://www.youtube.com/embed/mDtfmNmRwBM?autoplay=1&rel=0" target="_blank">
                     <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Tour
                 </a>
             </div>
