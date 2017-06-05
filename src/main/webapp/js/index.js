@@ -69,4 +69,13 @@ $('document').ready(function () {
         $('.vid-wrapper iframe').show();
     });
     
+    $(document).keyup(function (e) {
+        if (e.keyCode == 27) {
+            $('#tinker1').show();
+            $('.vid-wrapper').hide();     
+            $('.vid-wrapper iframe').hide();
+            return;
+        }   
+    });
+	
 });
